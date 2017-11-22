@@ -1,0 +1,22 @@
+{
+  "name": "goldenstand",
+  "version": "1.0.0",
+  "description": "高登 世德",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "mmklzmant",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

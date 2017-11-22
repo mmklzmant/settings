@@ -1,0 +1,49 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    //down
+    { 
+        "key": "alt+j",                  
+        "command": "cursorDown",
+        "when": "editorTextFocus" 
+    },
+    //left
+    { 
+        "key": "alt+h",                  
+        "command": "cursorLeft",
+        "when": "editorTextFocus" 
+    },
+    //right
+    { 
+        "key": "alt+l",                 
+        "command": "cursorRight",
+        "when": "editorTextFocus" 
+    },
+    //up
+    { 
+        "key": "alt+k",                    
+        "command": "cursorUp",
+        "when": "editorTextFocus" 
+    },
+    //home
+    { 
+        "key": "alt+shift+h",                  
+        "command": "cursorHome",
+        "when": "editorTextFocus" 
+    },
+    //end
+    { 
+        "key": "alt+shift+l",                   
+        "command": "cursorEnd",
+        "when": "editorTextFocus" 
+    },
+]

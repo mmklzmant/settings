@@ -1,0 +1,104 @@
+[
+    //右
+    {
+        "keys": ["alt+l"],
+        "command": "move",
+        "args":
+        {
+            "by": "characters",
+            "forward": true
+        }
+    },
+    //左
+    {
+        "keys": ["alt+h"],
+        "command": "move",
+        "args":
+        {
+            "by": "characters",
+            "forward": false
+        }
+    },
+    //右(单位)
+    {
+        "keys": ["shift+alt+l"],
+        "command": "move",
+        "args":
+        {
+            "by": "word_ends",
+            "forward": true
+        }
+    },
+    //左(单位)
+    {
+        "keys": ["shift+alt+h"],
+        "command": "move",
+        "args":
+        {
+            "by": "word_ends",
+            "forward": false
+        }
+    },
+    //上
+    {
+        "keys": ["alt+k"],
+        "command": "move",
+        "args":
+        {
+            "by": "lines",
+            "forward": false
+        }
+    },
+    //下
+    {
+        "keys": ["alt+j"],
+        "command": "move",
+        "args":
+        {
+            "by": "lines",
+            "forward": true
+        }
+    },
+    //reindent
+    {
+        "keys": ["alt+shift+f"],
+        "command": "reindent"
+    },
+    //tab size
+    {
+        "keys": ["alt+2"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "Packages/User/to-2.sublime-macro"
+        }
+    },
+    {
+        "keys": ["alt+4"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "Packages/User/to-4.sublime-macro"
+        }
+    },
+    //home end
+    {
+        "keys": ["shift+alt+j"],
+        "command": "move_to",
+        "args":
+        {
+            "to": "bol",
+            "extend": false
+        }
+    },
+    {
+        "keys": ["shift+alt+k"],
+        "command": "move_to",
+        "args":
+        {
+            "to": "eol",
+            "extend": false
+        }
+    }
+
+]
