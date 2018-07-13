@@ -5,45 +5,100 @@
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
     //down
-    { 
-        "key": "alt+j",                  
+    {
+        "key": "alt+j",
         "command": "cursorDown",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     //left
-    { 
-        "key": "alt+h",                  
+    {
+        "key": "alt+h",
         "command": "cursorLeft",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     //right
-    { 
-        "key": "alt+l",                 
+    {
+        "key": "alt+l",
         "command": "cursorRight",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     //up
-    { 
-        "key": "alt+k",                    
+    {
+        "key": "alt+k",
         "command": "cursorUp",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     //home
-    { 
-        "key": "alt+shift+h",                  
+    {
+        "key": "alt+shift+h",
         "command": "cursorHome",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     //end
-    { 
-        "key": "alt+shift+l",                   
+    {
+        "key": "alt+shift+l",
         "command": "cursorEnd",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
+    //select line
+    {
+        "key": "ctrl+l",
+        "command": "expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    //down select
+    {
+        "key": "alt+shift+n",
+        "command": "cursorDownSelect",
+        "when": "editorTextFocus"
+    },
+    //up select
+    {
+        "key": "alt+shift+i",
+        "command": "cursorUpSelect",
+        "when": "editorTextFocus"
+    },
+    //right select
+    {
+        "key": "alt+shift+k",
+        "command": "cursorRightSelect",
+        "when": "editorTextFocus"
+    },
+    //left select
+    {
+        "key": "alt+shift+j",
+        "command": "cursorLeftSelect",
+        "when": "editorTextFocus"
+    },
+    //insertCursorAtEndOfEachLineSelected
+    {
+        "key": "alt+i",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    //trimTrailingWhitespace
+    {
+        "key": "ctrl+alt+x",
+        "command": "editor.action.trimTrailingWhitespace",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    //jumpToBracket
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    //smartSelect.grow
+    {
+        "key": "shift+alt+g",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    //smartSelect.shrink
+    {
+        "key": "shift+alt+s",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    }
 ]
