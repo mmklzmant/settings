@@ -100,5 +100,15 @@
         "key": "shift+alt+s",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
+    },
+    //navigateForward
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.action.navigateForward",
+    },
+    //navigateBack
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.navigateBack",
     }
 ]
