@@ -69,5 +69,37 @@
     "key": "right",
     "command": "cursorRight",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbenchext.devtoolsBuiltIn.toggleFileTree"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbenchext.devtoolsBuiltIn.toggleFileTree"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbenchext.devtoolsBuiltIn.toggleSimulatorWindow"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbenchext.devtoolsBuiltIn.toggleSimulatorWindow"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "alt+left",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.navigateForward"
   }
 ]
